@@ -1,0 +1,36 @@
+.bottom-panel {
+    position: fixed;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    height: 350px;
+    border: 5px solid rgba(0, 0, 0, 1);
+    background: rgba(0, 0, 0, 0.85);
+  }
+
+.toggle {
+    position: fixed;
+    bottom: 95.5%;
+    left: 35%;
+  } 
+
+  img {
+    position: fixed;
+    left: 5%;
+    top: 5%;
+    height: 75%;
+    width: auto;
+  }
+
+  .banana-card {
+    position: fixed;
+  }
+
+.mat {
+  position: fixed;
+  top: 82%;
+  bottom: 13%;
+  left: 8%;
+  width: 170px;
+
+}
