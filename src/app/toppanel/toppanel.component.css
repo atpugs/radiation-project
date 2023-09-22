@@ -1,0 +1,30 @@
+.top-panel {
+    position: fixed;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    border: 5px solid rgba(0, 0, 0, 1);
+    background: rgba(0, 0, 0, 0.95);
+  }
+
+.toggle {
+    position: fixed;
+    top: 97.5%;
+    left: 35%;
+  }
+
+.logo {
+    position: fixed;
+    top: 100%;
+    right: 40%;
+    width: 50%;
+    height: auto;
+}
+
+img {
+  position: fixed;
+  height: 100%;
+  width: auto;
+  left: 5%;
+}
