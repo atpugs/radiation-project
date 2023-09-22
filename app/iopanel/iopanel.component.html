@@ -1,0 +1,50 @@
+<div class="right-panel">
+      <mat-card class="input-form">
+          <mat-card-title>theRadiationProject</mat-card-title>
+        <div>
+            <mat-form-field>
+                <input matInput placeholder="Source Latitude" #srclat>
+              </mat-form-field>
+        </div>
+        
+         <div>
+            <mat-form-field>
+                <input matInput placeholder="Source Longitude" #srclng>
+              </mat-form-field>
+         </div>
+
+         <div>
+            <mat-form-field>
+                <input matInput placeholder="Destination Latitude" #destlat>
+              </mat-form-field>
+        </div>
+        
+         <div>
+            <mat-form-field>
+                <input matInput placeholder="Destination Longitude" #destlng>
+              </mat-form-field>
+         </div>
+        
+         <div>
+          <mat-form-field>
+            <input matInput placeholder="Max Altitude (ft)" #alt value=35000>
+          </mat-form-field>
+         </div>
+    
+         <div>
+           <mat-form-field>
+             <input matInput placeholder="Max Speed (km/hr)" #spd value=885>
+          </mat-form-field>
+        </div>
+  
+        <div>
+             <button mat-flat-button color="warn" (click)="sayHi(srclat.value, srclng.value, destlat.value, destlng.value, alt.value, spd.value)">Calculate!</button>
+         </div>
+
+         <div>
+              <label >{{ed}}</label>
+         </div>
+    </mat-card>
+</div>
+
+
